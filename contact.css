@@ -1,43 +1,31 @@
-body {
-    margin: 0;
-    font-family: Arial;
-    background: linear-gradient(to right, #0a0f1f, #0d1b3d);
-    color: #e6ecff;
+/* Form styling inside card */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
-    background: rgba(255,255,255,0.05);
+/* Inputs */
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
 }
 
-nav a {
-    margin: 10px;
-    color: #cfd8ff;
-    text-decoration: none;
+/* Button */
+.contact-form button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #00adb5;
+    color: white;
     font-weight: bold;
-}
-
-nav a:hover {
-    color: #4da6ff;
-    text-shadow: 0 0 8px #4da6ff;
-}
-
-.card {
-    background: #111a2e;
-    color: #ffffff;
-    width: 300px;
-    margin: 50px auto;
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.8);
+    cursor: pointer;
     transition: 0.3s;
-    border: 1px solid rgba(77,166,255,0.2);
 }
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.9);
-    border: 1px solid #4da6ff;
+.contact-form button:hover {
+    background: #007b83;
 }

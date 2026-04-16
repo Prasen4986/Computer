@@ -1,11 +1,9 @@
-/* Form styling inside card */
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-/* Inputs */
 .contact-form input,
 .contact-form textarea {
     padding: 10px;
@@ -14,7 +12,6 @@
     outline: none;
 }
 
-/* Button */
 .contact-form button {
     padding: 12px;
     border: none;

@@ -1,5 +1,7 @@
 
 body {
+  background: red !important;
+}
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(135deg, #0f172a, #1e293b);
